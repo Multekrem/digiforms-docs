@@ -1,7 +1,7 @@
 site_name: Digiforms Documentation
 
 theme:
-  name: material
+  name: mkdocs
 
 nav:
   - Home: index.md
@@ -26,3 +26,4 @@ nav:
       - ai/index.md
 
       
+
