@@ -13,7 +13,8 @@ Digiforms is used to build secure digital services, including PDF generation and
 
 - [Core Concepts](core-concepts/)
 - [Server & Integration](server-integration/)
-- [Reference](reference/)
+- [Reference](references/)
 - [Advanced & Customization](advanced/)
 - [Troubleshooting](troubleshooting/)
+
 - [AI & Automation](ai/)
