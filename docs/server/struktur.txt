@@ -1,0 +1,56 @@
+server/
+│
+├── index.md
+│
+├── overview/
+│   ├── introduction.md
+│   ├── architecture.md
+│   ├── plugin-architecture.md
+│
+├── installation/
+│   ├── requirements.md
+│   ├── linux-installation.md
+│   ├── windows-installation.md
+│   ├── license.md
+│
+├── configuration/
+│   ├── system-properties.md
+│   ├── tomcat-setup.md
+│   ├── ssl-configuration.md
+│   ├── https-enforcement.md
+│   ├── password-hashing.md
+│   ├── access-log.md
+│   ├── fonts.md
+│
+├── operations/
+│   ├── start-stop-tomcat.md
+│   ├── deployment.md
+│   ├── os-support.md
+│
+├── security/
+│   ├── overview.md
+│   ├── ssl-cipher-suites.md
+│   ├── password-storage.md
+│   ├── https-policy.md
+│
+├── integrations/
+│   ├── index.md
+│   ├── authentication/
+│   │   ├── id-porten.md
+│   │   ├── mitid.md
+│   │   ├── oidc-oauth.md
+│   │
+│   ├── plugins/
+│   │   ├── altinn.md
+│   │   ├── freg.md
+│   │   ├── krr.md
+│   │   ├── nets-easy.md
+│   │   ├── exist.md
+│   │   ├── receptor.md
+│   │   ├── other.md
+│   │
+│   ├── mail-distribution.md
+│   ├── java-plugins.md
+│
+└── compliance/
+    ├── google-analytics.md

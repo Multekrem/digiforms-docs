@@ -8,23 +8,10 @@ nav:
   - Home: index.md
   - Getting Started:
       - getting-started/index.md
-  - Build PDF:
-      - build-pdf/index.md
-  - Build Web:
-      - build-web/index.md
-  - Core Concepts:
-      - core-concepts/index.md
-  - Server & Integration:
-      - server-integration/index.md
-  - Reference:
-      - reference/index.md
-  - Advanced:
-      - advanced/index.md
-  - Troubleshooting:
-      - troubleshooting/index.md
-  - AI:
-
-      - ai/index.md
+  - Designer:
+      - designer/index.md
+  - Server:
+      - server/index.md
 
       
 

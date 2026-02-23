@@ -1,11 +1,13 @@
-# Build PDF Documents
+# Getting Started
 
-This section covers how to create and generate PDF documents using Digiforms Designer.
+This section provides an overview of Digiforms and explains how the different components work together.
 
-## Topics in this section
+If you are new to Digiforms, start here before diving into Designer or Server documentation.
 
-- Layout model
-- Flow vs Absolute positioning
-- Z-order and paged media
-- FOP rendering
-- Generating PDF from XML
+## Topics
+
+- [What is Digiforms](what-is-digiforms/index.md)
+- [System Overview](system-overview/index.md)
+- [Designer and Server](designer-and-server/index.md)
+- [Your First Project](first-project/index.md)
+- [Terminology](terminology/index.md)
