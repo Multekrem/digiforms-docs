@@ -1,5 +1,5 @@
 /* Gjør alle markdown-bilder responsive */
-.md-content img {
+.container img {
   display: block;
   width: 100%;
   max-width: 100%;
