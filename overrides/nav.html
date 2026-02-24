@@ -1,10 +1,7 @@
-{% extends "mkdocs/base.html" %}
-
-{% block site_nav %}
 <nav class="sidebar" aria-label="Main navigation">
   <ul class="nav-list">
     {% for item in nav %}
-      <li class="nav-item">
+      <li>
         <a href="{{ item.url | url }}"
            class="{% if item.active %}active{% endif %}">
           {{ item.title }}
@@ -26,4 +23,3 @@
     {% endfor %}
   </ul>
 </nav>
-{% endblock %}
