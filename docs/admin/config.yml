@@ -1,0 +1,77 @@
+backend:
+  name: github
+  repo: Multekrem/digiforms-docs
+  branch: main
+
+media_folder: "docs/assets/images"
+public_folder: "/assets/images"
+
+collections:
+
+  # ---- FIXED STRUCTURE PAGES (index.md) ----
+  - name: "structure"
+    label: "Core Structure Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "docs/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Getting Started Overview"
+        name: "getting_started_index"
+        file: "docs/getting-started/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Designer Overview"
+        name: "designer_index"
+        file: "docs/designer/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Server Overview"
+        name: "server_index"
+        file: "docs/server/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  # ---- GETTING STARTED ARTICLES ----
+  - name: "getting_started_articles"
+    label: "Getting Started Articles"
+    folder: "docs/getting-started"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # ---- DESIGNER ARTICLES ----
+  - name: "designer_articles"
+    label: "Designer Articles"
+    folder: "docs/designer"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # ---- SERVER ARTICLES ----
+  - name: "server_articles"
+    label: "Server Articles"
+    folder: "docs/server"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
