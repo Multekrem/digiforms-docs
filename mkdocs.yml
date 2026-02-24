@@ -2,6 +2,7 @@ site_name: Digiforms Documentation
 
 theme:
   name: mkdocs
+  custom_dir: overrides
 
 extra_css:
   - assets/stylesheets/custom.css
@@ -53,6 +54,7 @@ nav:
       - Security: server/security/index.md
       - Integrations: server/integrations/index.md
       - Compliance: server/compliance/index.md
+
 
 
 
