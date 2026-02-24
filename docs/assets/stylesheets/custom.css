@@ -1,0 +1,9 @@
+/* Gjør alle markdown-bilder responsive */
+.md-content img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 1.5rem 0;
+}
