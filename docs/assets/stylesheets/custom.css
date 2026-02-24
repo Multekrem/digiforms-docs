@@ -7,3 +7,32 @@
   object-fit: contain;
   margin: 1.5rem 0;
 }
+
+/* custom sidebar høyre side */
+.sidebar {
+  padding: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 0.3rem 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #222;
+}
+
+.sidebar a.active {
+  font-weight: bold;
+}
+
+.sidebar a:focus {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+}
