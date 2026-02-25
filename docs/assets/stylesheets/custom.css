@@ -7,32 +7,43 @@
   object-fit: contain;
   margin: 1.5rem 0;
 }
-
-/* custom sidebar høyre side */
+/* Custom sidebar skjules initielt */
 .sidebar {
-  padding: 1rem;
+  visibility: hidden;
+  display: none;
 }
 
-.sidebar ul {
-  list-style: none;
-  padding-left: 1rem;
-  margin: 0;
-}
+@media (min-width: 768px) {
+  /* custom sidebar høyre side */
+  .sidebar {
+    visibility: visible;
+    display: flex;
+    background-color: #ecf8ff;
+    padding: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin: 0.3rem 0;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #222;
+  }
+  
+  .sidebar a.active {
+    font-weight: bold;
+  }
+  
+  .sidebar a:focus {
+    outline: 3px solid #005fcc;
+    outline-offset: 2px;
+  }
 
-.sidebar li {
-  margin: 0.3rem 0;
-}
-
-.sidebar a {
-  text-decoration: none;
-  color: #222;
-}
-
-.sidebar a.active {
-  font-weight: bold;
-}
-
-.sidebar a:focus {
-  outline: 3px solid #005fcc;
-  outline-offset: 2px;
 }
